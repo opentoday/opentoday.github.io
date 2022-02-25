@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "이클립스 스프링 프로젝트 생성"
+date:   2022-02-11 21:00:00 +0900
+categories: eclipse spring
+---
+
+# 이클립스 다운로드
+pc에는 jdk 1.8 설치가 설치된 상태임.
+eclipse installer 설치함.
+eclipse installer 에서 eclipse ee jdk 11+ 선택함. 최소 버전이라 이를 선택함.
+2/11일 기준 21.12 버전이 최신 버전임.
+
+# sts 플러그인 설치
+sts3 + tools 설치시 legacy project가 설치되지 않음.
+sts4 + sts3 tools for sts4 설치함.
+
+# 나머지 환경
+project lombok 설치하기
+https://projectlombok.org/download
+java -jar lombok.jar
+
