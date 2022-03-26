@@ -40,3 +40,15 @@ xsi:schemaLocation 항목을 세미콜론(;)으로 구분하면 해결된다.
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee; https://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 ```
 [출처:https://code-hyoon.tistory.com/14](https://code-hyoon.tistory.com/14)
+
+### The import org.junit cannot be resolved
+1. 프로젝트 우클릭 > Build Path > Configure Build Path
+2. Java Build Path > Libraries > Add Library
+3. JUnit 선택 > next > 알맞은 junit버전 선택 (ex. JUnit4) > finish > Apply and Close
+
+출처: https://skyfox83.tistory.com/5 [일상, 기록]
+[출처:https://skyfox83.tistory.com/5](https://skyfox83.tistory.com/5)
+
+### ojdbc8 추가하기
+/Application/SQLDeveloper.app/Contents/Resources/sqldeveloper/jdbc/lib/ojdbc8.jar
+
