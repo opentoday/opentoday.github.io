@@ -2,15 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Jonghyun Park
+  email:             jonghyunpark0@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    이제는 정리를 좀 해보기로 했다.
     
     Open `_data/authors.yml` to edit this text.
 
@@ -27,7 +25,7 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     twitter:         <username>
-    github:          <username>
+    github:          opentoday
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
