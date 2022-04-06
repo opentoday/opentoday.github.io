@@ -11,3 +11,4 @@ $$ \int_{0}^{\infty} f(x) dx $$
 $ 2^2 $
 
 # KaTeX Update
+$ 2^2 $
