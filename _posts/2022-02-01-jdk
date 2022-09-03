@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "JDK의 종류"
+date:   2022-02-01 08:26:00 +0900
+categories: jdk
+---
+
+# OpenJDK Providers and Comparison
+
+----------------------------------------------------------------------------------------
+|     Provider      | Free Builds | Free Binary   | Extended | Commercial | Permissive |
+|                   | from Source | Distributions | Updates  | Support    | License    |
+|--------------------------------------------------------------------------------------|
+| AdoptOpenJDK      |    Yes      |    Yes        |   Yes    |   No       |   Yes      |
+| Amazon – Corretto |    Yes      |    Yes        |   Yes    |   No       |   Yes      |
+| Azul Zulu         |    No       |    Yes        |   Yes    |   Yes      |   Yes      |
+| BellSoft Liberica |    No       |    Yes        |   Yes    |   Yes      |   Yes      |
+| IBM               |    No       |    No         |   Yes    |   Yes      |   Yes      |
+| jClarity          |    No       |    No         |   Yes    |   Yes      |   Yes      |
+| OpenJDK           |    Yes      |    Yes        |   Yes    |   No       |   Yes      |
+| Oracle JDK        |    No       |    Yes        |   No**   |   Yes      |   No       |
+| Oracle OpenJDK    |    Yes      |    Yes        |   No     |   No       |   Yes      |
+| ojdkbuild         |    Yes      |    Yes        |   No     |   No       |   Yes      |
+| RedHat            |    Yes      |    Yes        |   Yes    |   Yes      |   Yes      |
+| SapMachine        |    Yes      |    Yes        |   Yes    |   Yes      |   Yes      |
+----------------------------------------------------------------------------------------
+
+AdoptOpenJDK - https://adoptopenjdk.net
+Amazon – Corretto - https://aws.amazon.com/corretto
+Azul Zulu - https://www.azul.com/downloads/zulu/
+BellSoft Liberica - https://bell-sw.com/java.html
+IBM - https://www.ibm.com/developerworks/java/jdk
+jClarity - https://www.jclarity.com/adoptopenjdk-support/
+OpenJDK Upstream - https://adoptopenjdk.net/upstream.html
+Oracle JDK - https://www.oracle.com/technetwork/java/javase/downloads
+Oracle OpenJDK - http://jdk.java.net
+ojdkbuild - https://github.com/ojdkbuild/ojdkbuild
+RedHat - https://developers.redhat.com/products/openjdk/overview
+SapMachine - https://sap.github.io/SapMachine
+
+https://stackoverflow.com/questions/52431764/difference-between-openjdk-and-adoptium-adoptopenjdk
+
+# Archived OpenJDK 
+
+
+https://jdk.java.net/archive/
+
+# mac에 jdk 설치하기
+jdk를 다운받아 압축을 풀며 jdk-16.0.1.jdk 폴더를 /Library/Java/JavaVirtualMachines에 넣는다.
+
+# request 내장 객체
+HttpServletRequest 인터페이스 유형의 객체이다. 인터페이스는 아래 도규먼트 사이트에서 확인할 수 있다. 
+https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html
